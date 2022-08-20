@@ -1,11 +1,10 @@
 # 3rd-Person-Movement
-Idle like 3rd person movement logic in Unity.
+3rd person movement (Arcade idle like) logic in Unity.
 
-By default, the system uses the NavMesh system for character movement.
+Movement supported by:
+* Unity NavMesh Agent
+* Unity Character Controller
 
-To implement your own movement system, you must:
-1) Inherit your implementation from an abstract MonoBehaviour class `MovableService`
-2) Replace the service in the character prefab with your implementation and update the links in the installer
 
 # Work Demonstration 
 
@@ -13,4 +12,5 @@ To implement your own movement system, you must:
 
 # Using
 
-[Zenject](https://github.com/modesttree/Zenject)
+* [Zenject](https://github.com/modesttree/Zenject)
+* Free GUI Joystick
