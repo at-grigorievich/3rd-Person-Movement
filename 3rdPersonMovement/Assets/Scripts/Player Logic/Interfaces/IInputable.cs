@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace PlayerLogic.Interfaces
+namespace InputService
 {
     public interface IInputable
     {

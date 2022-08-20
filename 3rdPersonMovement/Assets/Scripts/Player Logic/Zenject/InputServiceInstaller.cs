@@ -1,5 +1,4 @@
-﻿using PlayerLogic.Interfaces;
-using PlayerLogic.Services;
+﻿using InputService;
 using UnityEngine;
 using Zenject;
 

@@ -1,8 +1,7 @@
 ﻿using System;
-using PlayerLogic.Interfaces;
 using UnityEngine;
 
-namespace PlayerLogic.Services
+namespace InputService
 {
     public class PlayerInputService : MonoBehaviour, IInputable
     {

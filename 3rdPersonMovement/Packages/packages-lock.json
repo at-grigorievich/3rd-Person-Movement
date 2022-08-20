@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.atg.animatorhc": {
+      "version": "https://github.com/at-grigorievich/Unity-AnimatorHC.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d27f968115aff127969b00f3be2f8ec786dd0a7a"
+    },
+    "com.atg.statemachine": {
+      "version": "https://github.com/at-grigorievich/Unity-StateMachine.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0054b19deb6c6d959eb55b0bc541c00390e2bbfd"
+    },
     "com.unity.cinemachine": {
       "version": "2.8.6",
       "depth": 0,

@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: Bot Animator Data
   m_EditorClassIdentifier: 
   states:
-  - actionType: 0
-    stateType: 0
-    stateName: IsIdle
-  - actionType: 2
-    stateType: 0
-    stateName: IsMove
+  - _actionType: 0
+    _stateType: 0
+    _stateName: IsIdle
+    _crossFadeOption:
+      CrossFadeDuration: 0.1
+      AnimatorLayer: -1
+  - _actionType: 2
+    _stateType: 0
+    _stateName: IsRun
+    _crossFadeOption:
+      CrossFadeDuration: 1
+      AnimatorLayer: -1
